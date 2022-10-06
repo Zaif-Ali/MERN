@@ -1,0 +1,6 @@
+npm create vite@latest
+tailwind
+npm i react-router-dom
+npm i react-redux @reduxjs/toolkit
+npm i axios     // for sending request from frontend
+npm install --save react-toastify // to get excellent notification 

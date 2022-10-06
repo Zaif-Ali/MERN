@@ -1,0 +1,4 @@
+express // for help in the server creation
+mongoose // for data base connection
+bcryptjs // for convert the data into the hasing value 
+cors // ite help to send request from frontend to backend actually browser not give access to request one server to other server to cors remove this ristriction for us
