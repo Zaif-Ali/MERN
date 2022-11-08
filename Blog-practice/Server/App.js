@@ -11,9 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/blog", BlogsRouter);
 app.use("/user", userRouter);
-/*
-mongodb://HuzaifaMajeed:HuzaifaMajeed@ac-l3hqepd-shard-00-00.bq9lsvm.mongodb.net:27017,ac-l3hqepd-shard-00-01.bq9lsvm.mongodb.net:27017,ac-l3hqepd-shard-00-02.bq9lsvm.mongodb.net:27017/?ssl=true&replicaSet=atlas-rqs4y6-shard-0&authSource=admin&retryWrites=true&w=majority
-*/
+
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => {
